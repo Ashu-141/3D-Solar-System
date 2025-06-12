@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Solar System Simulation</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Official Three.js CDN (0.148.0) -->
+  <script src="https://unpkg.com/three@0.148.0/build/three.min.js"></script>
+
+  <!-- ✅ Your script after THREE is loaded -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <body>
+  <div id="ui-panel">
+    <h2>Planet Speed Controls</h2>
+    <div id="sliders"></div> <!-- ✅ This was missing -->
+    <button id="pauseBtn">Pause</button>
+    <button id="resumeBtn">Resume</button>
+  </div>
+
+  <canvas id="solarCanvas"></canvas>
+</body>
+</html>

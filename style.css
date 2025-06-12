@@ -1,0 +1,67 @@
+#ui-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+label {
+  display: block;
+  margin: 5px 0 2px;
+}
+input[type="range"] {
+  width: 100px;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: Arial, sans-serif;
+}
+
+#solarCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  z-index: 10;
+  max-width: 300px;
+}
+
+#controls h2 {
+  margin-top: 0;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh
+}
